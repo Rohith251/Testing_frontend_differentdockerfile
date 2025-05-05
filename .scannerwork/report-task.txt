@@ -1,0 +1,6 @@
+projectKey=ForexCard3
+serverUrl=http://localhost:9797
+serverVersion=9.9.8.100196
+dashboardUrl=http://localhost:9797/dashboard?id=ForexCard3
+ceTaskId=AZaMzgqiIge4wmEcYR02
+ceTaskUrl=http://localhost:9797/api/ce/task?id=AZaMzgqiIge4wmEcYR02

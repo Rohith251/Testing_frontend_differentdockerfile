@@ -1,0 +1,53 @@
+.forex-rates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.forex-rate-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.currency-info {
+  display: flex;
+  flex-direction: column;
+}
+.change {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+
+  .indicators-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .indicator-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .indicator-name {
+    text-transform: capitalize;
+  }
+  .indicator-value {
+    font-weight: bold;
+  }
+  .indicator-trend {
+    margin-left: 8px;
+  }
+  
+  
