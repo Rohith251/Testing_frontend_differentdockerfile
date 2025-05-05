@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: frontend_app
+    image: rohith0702/forex-frontend:latest
+    ports:
+      - "5173:4173"  # Host:Container (Vite preview default is 4173)
+    networks:
+      - app_network
+    depends_on:
+      - backend
+
+  backend:
+    container_name: backend_app
+    image: rohith0702/forex-backend:latest
+    ports:
+      - "8081:8081"
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
